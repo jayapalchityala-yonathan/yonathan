@@ -46,8 +46,8 @@
       { "key": "Mission",     "val": "Build real products from scratch and ship them" }
     ],
     "paragraphs": [
-      "BYC — Build Your Creations — is a personal brand created by Yonathan in India in 2026. It was born from a simple idea: you don't need a factory, a big team or millions in funding to build something real.",
-      "You need motivation to keep going. Dedication to finish what you start. Passion for what you're building. And the skills to make it work. That's BYC. That's the whole philosophy.",
+      "BYC — Build Your Creations — is a personal brand created by Yonathan in India in 2026. It was born from a simple idea: you dont need a factory, a big team or millions in funding to build something real.",
+      "You need motivation to keep going. Dedication to finish what you start. Passion for what youre building. And the skills to make it work. Thats BYC. Thats the whole philosophy.",
       "Every product under the BYC brand is built from scratch — hardware, software, design, everything. One creator. Real products. Shipped to real people."
     ]
   },
@@ -62,7 +62,7 @@
     {
       "icon": "⚙️",
       "name": "Dedication",
-      "desc": "Finish what you start. Ideas are cheap. A finished product on someone's desk is worth everything. Ship it. Always.",
+      "desc": "Finish what you start. Ideas are cheap. A finished product on someones desk is worth everything. Ship it. Always.",
       "tag": "Finish What You Start"
     },
     {
@@ -74,7 +74,7 @@
     {
       "icon": "⚡",
       "name": "Skills",
-      "desc": "Engineer real solutions. Learn what you need, apply it immediately. Every problem is just a skill you haven't learned yet.",
+      "desc": "Engineer real solutions. Learn what you need, apply it immediately. Every problem is just a skill you havent learned yet.",
       "tag": "Engineer Real Solutions"
     }
   ],
@@ -103,7 +103,7 @@
   ],
 
   "contact": {
-    "formEndpoint": "https://formspree.io/f/mnjgvkdy"
+    "formEndpoint": "https://formspree.io/f/mnjgvkdy",
     "subtitle": "Get in Touch",
     "title": "Lets Build Something.",
     "body": "Interested in a BYC product? Want to collaborate? Have an idea you want built? Reach out — Yonathan reads every message."
