@@ -99,7 +99,15 @@
       "statusLabel": "Live Now",
       "featured": true,
       "desc": "A compact motorcycle navigation display. Real-time turn-by-turn directions on your handlebar. Voice guidance. Phone stays in your pocket."
-    }
+    },
+    {
+    "name": "SmartDash",
+    "icon": "DASH",
+    "status": "soon",
+    "statusLabel": "Coming Soon",
+    "featured": false,
+    "desc": "A full motorcycle smart dashboard. Speed, fuel level, engine temp and navigation all on one display. Built on ESP32."
+  }
   ],
 
   "contact": {
