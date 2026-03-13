@@ -1,0 +1,110 @@
+{
+  "site": {
+    "title": "BYC — Build Your Creations",
+    "tagline": "Build Your Creations",
+    "brand": "BYC",
+    "founder": "Yonathan",
+    "country": "India",
+    "year": "2026",
+    "email": "hello@byc.in",
+    "type": "Hardware Brand"
+  },
+
+  "hero": {
+    "established": "Est. 2026 — Made in India",
+    "titleLines": ["Build.", "Create.", "Launch."],
+    "manifesto": "No factory. No team. No millions in funding. Just you and your hands.",
+    "description": "Anyone with passion, dedication and skills can build real products from scratch.",
+    "stats": [
+      { "num": "4×", "label": "Core Pillars" },
+      { "num": "∞",  "label": "Products Ahead" },
+      { "num": "1",  "label": "Creator" },
+      { "num": "0",  "label": "Limits" }
+    ]
+  },
+
+  "ticker": [
+    "Build Your Creations",
+    "Motivation",
+    "Dedication",
+    "Passion",
+    "Skills",
+    "Made in India",
+    "Real Products",
+    "Built From Scratch",
+    "Est. 2026",
+    "By Yonathan"
+  ],
+
+  "about": {
+    "meta": [
+      { "key": "Full Name",   "val": "BYC — Build Your Creations" },
+      { "key": "Founded By",  "val": "Yonathan" },
+      { "key": "Year",        "val": "2026" },
+      { "key": "Country",     "val": "India" },
+      { "key": "Inspiration", "val": "Companies that started small and built empires" },
+      { "key": "Mission",     "val": "Build real products from scratch and ship them" }
+    ],
+    "paragraphs": [
+      "BYC — Build Your Creations — is a personal brand created by Yonathan in India in 2026. It was born from a simple idea: you don't need a factory, a big team or millions in funding to build something real.",
+      "You need motivation to keep going. Dedication to finish what you start. Passion for what you're building. And the skills to make it work. That's BYC. That's the whole philosophy.",
+      "Every product under the BYC brand is built from scratch — hardware, software, design, everything. One creator. Real products. Shipped to real people."
+    ]
+  },
+
+  "pillars": [
+    {
+      "icon": "🔥",
+      "name": "Motivation",
+      "desc": "Never stop building. When something fails, rebuild it. When something breaks, fix it. The only way to fail is to stop.",
+      "tag": "Never Stop Building"
+    },
+    {
+      "icon": "⚙️",
+      "name": "Dedication",
+      "desc": "Finish what you start. Ideas are cheap. A finished product on someone's desk is worth everything. Ship it. Always.",
+      "tag": "Finish What You Start"
+    },
+    {
+      "icon": "❤️",
+      "name": "Passion",
+      "desc": "Love what you create. It shows in every line of code, every solder joint, every detail. Products built with love feel different.",
+      "tag": "Love What You Create"
+    },
+    {
+      "icon": "⚡",
+      "name": "Skills",
+      "desc": "Engineer real solutions. Learn what you need, apply it immediately. Every problem is just a skill you haven't learned yet.",
+      "tag": "Engineer Real Solutions"
+    }
+  ],
+
+  "vision": {
+    "quote": "Anyone can build real products from scratch — no excuses.",
+    "quoteHighlight": "real products",
+    "body": "BYC exists to prove that one person with the right mindset can build hardware products that people actually want to buy. Not prototypes. Not demos. Real products, shipped to real customers.",
+    "stats": [
+      { "num": "4",  "label": "Core Pillars" },
+      { "num": "1",  "label": "Creator" },
+      { "num": "∞",  "label": "Products Ahead" },
+      { "num": "0",  "label": "Limits" }
+    ]
+  },
+
+  "products": [
+    {
+      "name": "NavDevice",
+      "icon": "🧭",
+      "status": "live",
+      "statusLabel": "Live Now",
+      "featured": true,
+      "desc": "A compact motorcycle navigation display. Real-time turn-by-turn directions on your handlebar. Voice guidance. Phone stays in your pocket."
+    }
+  ],
+
+  "contact": {
+    "subtitle": "Get in Touch",
+    "title": "Let's Build Something.",
+    "body": "Interested in a BYC product? Want to collaborate? Have an idea you want built? Reach out — Yonathan reads every message."
+  }
+}
