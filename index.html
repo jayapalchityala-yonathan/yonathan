@@ -850,15 +850,66 @@ function initReveal() {
 function initForm() {
   const btn = document.querySelector('.form-submit');
   if (!btn) return;
-  btn.addEventListener('click', () => {
-    btn.textContent = 'Message Sent ✓';
-    btn.style.background = '#22d3a5';
-    btn.style.color = '#0d0c0a';
-    setTimeout(() => {
-      btn.textContent = 'Send Message →';
-      btn.style.background = '';
-      btn.style.color = '';
-    }, 3000);
+  btn.addEventListener('click', async () => {
+    const name    = document.querySelector('input[type="text"]').value.trim();
+    const email   = document.querySelector('input[type="email"]').value.trim();
+    const message = document.querySelector('textarea').value.trim();
+
+    // Validation
+    if (!name || !email || !message) {
+      btn.textContent = 'Fill all fields!';
+      btn.style.background = '#c94c1e';
+      btn.style.color = 'var(--paper)';
+      setTimeout(() => {
+        btn.textContent = 'Send Message →';
+        btn.style.background = '';
+        btn.style.color = '';
+      }, 2000);
+      return;
+    }
+
+    btn.textContent = 'Sending...';
+    btn.disabled = true;
+    btn.style.background = 'var(--ash)';
+
+    try {
+      // Replace YOUR_FORM_ID with your actual Formspree form ID
+      // Sign up free at formspree.io -> New Form -> copy the ID from the endpoint
+      const FORMSPREE_ID = 'mnjgvkdy';
+
+      const res = await fetch('https://formspree.io/f/' + FORMSPREE_ID, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ name, email, message })
+      });
+
+      if (res.ok) {
+        btn.textContent = 'Message Sent!';
+        btn.style.background = '#22d3a5';
+        btn.style.color = '#0d0c0a';
+        document.querySelector('input[type="text"]').value = '';
+        document.querySelector('input[type="email"]').value = '';
+        document.querySelector('textarea').value = '';
+        setTimeout(() => {
+          btn.textContent = 'Send Message ->';
+          btn.style.background = '';
+          btn.style.color = '';
+        }, 4000);
+      } else {
+        throw new Error('Server error');
+      }
+    } catch (err) {
+      btn.textContent = 'Failed - Try Again';
+      btn.style.background = '#c94c1e';
+      btn.style.color = 'var(--paper)';
+      setTimeout(() => {
+        btn.textContent = 'Send Message ->';
+        btn.style.background = '';
+        btn.style.color = '';
+      }, 3000);
+    }
+
+    btn.disabled = false;
   });
 }
 
