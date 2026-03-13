@@ -103,6 +103,7 @@
   ],
 
   "contact": {
+    "formEndpoint": "https://formspree.io/f/mnjgvkdy"
     "subtitle": "Get in Touch",
     "title": "Let's Build Something.",
     "body": "Interested in a BYC product? Want to collaborate? Have an idea you want built? Reach out — Yonathan reads every message."
