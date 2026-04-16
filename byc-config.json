@@ -92,15 +92,18 @@
   },
 
   "products": [
-    {
-      "name": "NavDevice",
-      "icon": "🧭",
-      "status": "live",
-      "statusLabel": "Live Now",
-      "featured": true,
-      "desc": "A compact motorcycle navigation display. Real-time turn-by-turn directions on your handlebar. Voice guidance. Phone stays in your pocket."
-    }
-  ],
+  {
+    "name": "NavDevice",
+    "icon": "🧭",
+    "status": "live",
+    "statusLabel": "Live Now",
+    "featured": true,
+    "desc": "A compact motorcycle navigation display. Real-time turn-by-turn directions on your handlebar. Voice guidance. Phone stays in your pocket.",
+    "image": "images/navdevice.jpg",
+    "video": "images/navdevice-demo.mp4",
+    "youtube": "https://www.youtube.com/embed/YOUR_VIDEO_ID"
+  }
+],
 
   "contact": {
     "formEndpoint": "https://formspree.io/f/mnjgvkdy",
